@@ -1,4 +1,4 @@
-* # Collecting and Visualizing Live Data from Sensors with Python and MongoDB
+# Collecting and Visualizing Live Data from Sensors with Python and MongoDB
 
 ## Learning Outcomes
 
@@ -10,7 +10,7 @@ By finishing this session, you should be able to
 
 ## Github Page
 
-- [https://github.com/scie1006-workshop/2024/workshop2.md](https://github.com/scie1006-workshop/2024/workshop2.md)
+- [https://github.com/scie1006-workshop/2024/blob/main/workshop2.md](https://github.com/scie1006-workshop/2024/blob/main/workshop2.md)
 
 ## Part 1: Getting Started
 
