@@ -430,7 +430,7 @@ By finishing this session, you should be able to
       
 
 ## Discussion
-Question: Use MongoDB charts to generate effective visualizations for the dataset shown below. You should add the chart(s) to the same Dashboard as in Part 6. Explain why the visuals are effective in no more than 500 words.
+Question: Use MongoDB charts to generate effective visualizations for the dataset shown below. You should add the charts to the same Dashboard as in Part 6. Explain why the visuals are effective in no more than 500 words.
 - Answer the discussion question in the Moodle submission box.
 - Reference: https://www.mongodb.com/docs/charts/
   
@@ -530,9 +530,9 @@ You have to submit the following items to the Moodle submission box:
 
 - Tutorial. (n.d.). PyMongo 4.4.1 documentation. https://pymongo.readthedocs.io/en/stable/tutorial.html
 
-<!--
+
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
 </script>
-//-->
+
