@@ -10,8 +10,8 @@ By finishing this session, you should be able to
 
 ## Github Page
 
-- [https://github.com/scie1006-workshop/2024/workshop3.md](https://github.com/scie1006-workshop/2024/workshop3.md)
-
+- [https://github.com/scie1006-workshop/2024/blob/main/workshop3.md](https://github.com/scie1006-workshop/2024/blob/main/workshop3.md)
+  
 ## Part 1: Getting Started
 
 1. Power on the ROCK PI device and log in using the provided username and password.
