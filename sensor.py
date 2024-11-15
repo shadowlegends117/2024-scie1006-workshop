@@ -1,10 +1,6 @@
 # Exercise code: Read and print the humidity data from the sensor
 # Fill out the ... below
 from smbus2 import SMBus
-import time
-
-import datetime
-print(f'Hello, now is {datetime.datetime.now()}')
 
 bus = SMBus(7)
 
