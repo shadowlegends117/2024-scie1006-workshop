@@ -1,4 +1,4 @@
 mongodb+srv://adrianlamyc:<aVdgzKgHl8dQqHt7>@cluster0.zhbxr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 charts link:
-
+https://charts.mongodb.com/charts-project-0-kxweyyt/public/dashboards/c1d54c8f-7fbb-4a4e-a112-aec076795d7e
