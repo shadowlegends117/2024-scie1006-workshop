@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 import datetime
+import pyttsx3
 
 # Your URI copied from the MongoDB Atlas website
 # Replace <password> with the password you created for your database user
@@ -12,6 +13,10 @@ db = client.database
 from smbus2 import SMBus
 import time
 bus = SMBus(7)
+
+engine = pyttsx3.init()
+engine.say("Program started")
+engine.runAndWait()
 
 while True:
 # trigger the sensor to do measurement
@@ -27,10 +32,18 @@ while True:
     temperature = temp / (2**20) * 200 - 50
     print(u'Temperature: {0:.1f}°C'.format(temperature))
 
+    engine = pyttsx3.init()
+    engine.say(u'Temperature is now {0:.1f}°'.format(temperature))
+    engine.runAndWait()
+
     humidity = humi / (2**20) * 100
     # print(humidity)
     print(u'Humidity: {0:.1f}%'.format(humidity))
-
+    # Exercise: Output humidity value with speech
+    # Fill out the ... below
+    engine = pyttsx3.init()
+    engine.say(u'Humidity: {0:.1f}%'.format(humidity))
+    engine.runAndWait()
     # Create a record variable to store the sensor data
     record = {
         "sensor_id": 1,
